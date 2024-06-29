@@ -1,0 +1,29 @@
+.main-color {
+  background-color: var(--main-color);
+}
+
+.todo-list {
+  background-color: var(--main-color);
+  margin: 0 auto;
+  max-width: 1025px;
+  width: 80vw;
+  border-radius: 0.5rem;
+
+}
+.title-todo{
+  margin-top: -1.6rem ;
+}
+
+.in:focus {
+  border: 1px solid var(--main-color);
+
+}
+.btn-submit:hover{
+background-color: var(--main-color);
+color: white;
+border: 1px solid var(--main-color);
+}
+textarea{
+  resize:none;
+}
+

@@ -1,0 +1,40 @@
+:root {
+  --black-color: #0c0b0b;
+  --color-white: #e0e7ff;
+  --main-color: #0077b6;
+}
+body {
+  /* min-height: 100vh; */
+  padding: 1rem;
+  background-image: url("blue.jpg") ;
+}
+* {
+  margin: 0;
+  font-family: Circular, -apple-system;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
